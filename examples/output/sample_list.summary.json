@@ -1,0 +1,177 @@
+{
+  "total_rows": 60,
+  "kept": 7,
+  "rejected": 53,
+  "email_column": "email",
+  "consent_column": "consent",
+  "reasons": {
+    "consent_unknown": 2,
+    "disposable_domain": 3,
+    "dns_null_mx": 18,
+    "dns_nxdomain": 8,
+    "domain_empty": 1,
+    "domain_empty_label": 1,
+    "domain_invalid_chars": 1,
+    "domain_no_dot": 1,
+    "duplicate": 4,
+    "duplicate_gmail_variant": 4,
+    "local_bad_dots": 3,
+    "local_empty": 1,
+    "local_invalid_chars": 1,
+    "missing_at": 1,
+    "multiple_at": 1,
+    "not_opted_in": 3
+  },
+  "flags": {
+    "dns_lookup_failed": 1,
+    "role_account": 7,
+    "typo_domain": 4
+  },
+  "flagged": [
+    {
+      "row": 27,
+      "email": "info@example.com",
+      "flags": [
+        "role_account"
+      ],
+      "suggestion": null
+    },
+    {
+      "row": 28,
+      "email": "sales@example.ca",
+      "flags": [
+        "role_account"
+      ],
+      "suggestion": null
+    },
+    {
+      "row": 29,
+      "email": "admin@example.org",
+      "flags": [
+        "role_account"
+      ],
+      "suggestion": null
+    },
+    {
+      "row": 30,
+      "email": "support@example.com",
+      "flags": [
+        "role_account"
+      ],
+      "suggestion": null
+    },
+    {
+      "row": 31,
+      "email": "noreply@example.ca",
+      "flags": [
+        "role_account"
+      ],
+      "suggestion": null
+    },
+    {
+      "row": 32,
+      "email": "contact@example.org",
+      "flags": [
+        "role_account"
+      ],
+      "suggestion": null
+    },
+    {
+      "row": 33,
+      "email": "no-reply@example.com",
+      "flags": [
+        "role_account"
+      ],
+      "suggestion": null
+    },
+    {
+      "row": 46,
+      "email": "zq-demo-garrick.ness@gmial.com",
+      "flags": [
+        "typo_domain",
+        "dns_lookup_failed"
+      ],
+      "suggestion": "zq-demo-garrick.ness@gmail.com"
+    },
+    {
+      "row": 47,
+      "email": "zq-demo-petra.lund@hotmial.com",
+      "flags": [
+        "typo_domain"
+      ],
+      "suggestion": "zq-demo-petra.lund@hotmail.com"
+    },
+    {
+      "row": 48,
+      "email": "zq-demo-alder.quist@yaho.ca",
+      "flags": [
+        "typo_domain"
+      ],
+      "suggestion": "zq-demo-alder.quist@yahoo.ca"
+    },
+    {
+      "row": 49,
+      "email": "zq-demo-sorrel.vane@outlok.com",
+      "flags": [
+        "typo_domain"
+      ],
+      "suggestion": "zq-demo-sorrel.vane@outlook.com"
+    }
+  ],
+  "dns": {
+    "enabled": true,
+    "unique_domains_checked": 9,
+    "results": {
+      "error": 1,
+      "null_mx": 2,
+      "nxdomain": 2,
+      "ok_mx": 4
+    },
+    "domains": {
+      "example.ca": {
+        "status": "nxdomain",
+        "detail": "domain does not exist"
+      },
+      "example.com": {
+        "status": "null_mx",
+        "detail": "null MX (RFC 7505): domain accepts no mail"
+      },
+      "example.org": {
+        "status": "null_mx",
+        "detail": "null MX (RFC 7505): domain accepts no mail"
+      },
+      "gmail.com": {
+        "status": "ok_mx",
+        "detail": "alt1.gmail-smtp-in.l.google.com, alt2.gmail-smtp-in.l.google.com, alt3.gmail-smtp-in.l.google.com, alt4.gmail-smtp-in.l.google.com, gmail-smtp-in.l.google.com"
+      },
+      "gmial.com": {
+        "status": "error",
+        "detail": "NoNameservers"
+      },
+      "hotmial.com": {
+        "status": "ok_mx",
+        "detail": "mail.h-email.net"
+      },
+      "outlok.com": {
+        "status": "ok_mx",
+        "detail": "mail.h-email.net"
+      },
+      "xn--bcher-kva.example": {
+        "status": "nxdomain",
+        "detail": "domain does not exist"
+      },
+      "yaho.ca": {
+        "status": "ok_mx",
+        "detail": "e.mx.mail.yahoo.com"
+      }
+    }
+  },
+  "options": {
+    "gmail_canonical": true,
+    "reject_roles": false,
+    "keep_disposable": false,
+    "reject_typos": false,
+    "fix_typos": false
+  },
+  "casl_note": "CASL note: this tool filters on the consent column you supply; it cannot verify that consent is valid, express or implied, or documented. This is not legal advice; check Canada's Anti-Spam Legislation (CASL) and your own records before sending."
+}

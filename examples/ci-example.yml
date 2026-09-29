@@ -1,0 +1,18 @@
+# Example only: copy into .github/workflows/ of YOUR repository if you want
+# to lint a list file on every change. Uses --no-dns so CI needs no network.
+name: list-hygiene
+on: [push]
+jobs:
+  hygiene:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install email-list-hygiene
+      - run: email-list-hygiene lists/subscribers.csv -o hygiene-out --no-dns --summary-format both
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hygiene-out
+          path: hygiene-out

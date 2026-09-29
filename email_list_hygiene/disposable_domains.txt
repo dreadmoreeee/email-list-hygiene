@@ -1,0 +1,55 @@
+# Disposable / temporary email domains (curated SUBSET, not exhaustive).
+#
+# Source: names taken from the well-known public projects in this space,
+#   mainly "disposable-email-domains" (CC0 1.0 / MIT licensed lists).
+#   https://github.com/disposable-email-domains/disposable-email-domains
+# This file is a small hand-picked subset of very common services, written
+# out by hand: it is NOT a verbatim copy and it may contain mistakes or miss
+# domains that were added upstream. Refresh from the upstream list if you
+# need full coverage.
+# Snapshot date: 2026-09-29
+# The tool never downloads this list at runtime.
+#
+# Format: one domain per line, lowercase; lines starting with '#' are comments.
+# Subdomains of a listed domain are matched too.
+10minutemail.com
+10minutemail.net
+20minutemail.com
+anonbox.net
+burnermail.io
+discard.email
+dispostable.com
+emailondeck.com
+fakeinbox.com
+getairmail.com
+getnada.com
+grr.la
+guerrillamail.biz
+guerrillamail.com
+guerrillamail.de
+guerrillamail.net
+guerrillamail.org
+guerrillamailblock.com
+jetable.org
+maildrop.cc
+mailinator.com
+mailinator.net
+mailnesia.com
+mailtemp.info
+mintemail.com
+mohmal.com
+mytemp.email
+sharklasers.com
+spam4.me
+spamgourmet.com
+temp-mail.org
+tempail.com
+tempinbox.com
+tempmail.com
+tempmailo.com
+throwawaymail.com
+trashmail.com
+trashmail.net
+yopmail.com
+yopmail.fr
+yopmail.net

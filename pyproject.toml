@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "email-list-hygiene"
+version = "0.1.0"
+description = "Clean a mailing list CSV before a campaign: syntax, duplicates, roles, disposable domains, typos, DNS and consent. Never sends anything."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Marvin Palencia" }]
+keywords = ["email", "mailing-list", "csv", "hygiene", "validation", "casl"]
+dependencies = ["dnspython>=2.0"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.scripts]
+email-list-hygiene = "email_list_hygiene.cli:main"
+
+[tool.setuptools]
+packages = ["email_list_hygiene"]
+
+[tool.setuptools.package-data]
+email_list_hygiene = ["disposable_domains.txt"]

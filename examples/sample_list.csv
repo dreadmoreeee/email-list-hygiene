@@ -1,0 +1,61 @@
+email,name,consent
+tamsin.vale@example.com,Tamsin Vale,yes
+orrin.fell@example.com,Orrin Fell,yes
+brindle.marsh@example.ca,Brindle Marsh,yes
+quill.harrow@example.org,Quill Harrow,yes
+wren.calloway@example.com,Wren Calloway,yes
+fennick.dray@example.ca,Fennick Dray,yes
+odalys.pike@example.org,Odalys Pike,yes
+hollis.reeve@example.com,Hollis Reeve,yes
+maren.tolliver@example.ca,Maren Tolliver,yes
+juniper.oakes@example.org,Juniper Oakes,yes
+corwin.ashby@example.com,Corwin Ashby,yes
+linnea.sparrow@example.ca,Linnea Sparrow,yes
+peregrine.holt@example.org,Peregrine Holt,yes
+sable.winslow@example.com,Sable Winslow,yes
+ignatius.crane@example.ca,Ignatius Crane,yes
+delphine.rook@example.org,Delphine Rook,yes
+Tamsin.Vale@Example.COM,Tamsin Vale (again),yes
+orrin.fell@example.com,Orrin Fell (again),yes
+ brindle.marsh@example.ca ,Brindle Marsh (padded),yes
+zq-demo-zeb.tallis@gmail.com,Zeb Tallis,yes
+zq-demo-zeb.tallis@gmail.com,Zeb Tallis (exact copy),yes
+zq-demo-z.e.b.tallis@gmail.com,Zeb Tallis (dots),yes
+zq-demo-zebtallis+spring@gmail.com,Zeb Tallis (tag),yes
+zq-demo-ZebTallis@googlemail.com,Zeb Tallis (googlemail),yes
+zq-demo-ivo.marlowe@gmail.com,Ivo Marlowe,yes
+zq-demo-i.v.o.marlowe+news@gmail.com,Ivo Marlowe (variant),yes
+info@example.com,Front desk,yes
+sales@example.ca,Sales team,yes
+admin@example.org,Admin,yes
+support@example.com,Support,yes
+noreply@example.ca,No reply,yes
+contact@example.org,Contact,yes
+no-reply@example.com,No reply hyphen,yes
+missing-at-sign.example.com,Missing at,yes
+double@@example.com,Double at,yes
+.leading.dot@example.com,Leading dot,yes
+trailing.dot.@example.com,Trailing dot,yes
+consecutive..dots@example.org,Consecutive dots,yes
+space in@example.ca,Space inside,yes
+user@,No domain,yes
+@example.com,No local part,yes
+user@localhost,Single label domain,yes
+user@example..com,Empty label,yes
+user@-example.org,Bad label hyphen,yes
+merrow.finch@xn--bcher-kva.example,Merrow Finch (IDN),yes
+zq-demo-garrick.ness@gmial.com,Garrick Ness,yes
+zq-demo-petra.lund@hotmial.com,Petra Lund,yes
+zq-demo-alder.quist@yaho.ca,Alder Quist,yes
+zq-demo-sorrel.vane@outlok.com,Sorrel Vane,yes
+zq-demo-kestrel.moss@gmail.com,Kestrel Moss,yes
+zq-demo-throwaway.zed@mailinator.com,Throwaway Zed,yes
+zq-demo-temp.quorra@guerrillamail.com,Temp Quorra,yes
+zq-demo-burner.lyle@yopmail.com,Burner Lyle,yes
+elowen.frost@example.com,Elowen Frost,no
+rafferty.dunn@example.ca,Rafferty Dunn,no
+isolde.brack@example.org,Isolde Brack,
+thorne.avery@example.com,Thorne Avery,unsubscribed
+cassia.hale@example.ca,Cassia Hale,maybe
+nell.harker@example.org,Nell Harker,YES
+lorcan.pryce@example.com,Lorcan Pryce,oui
